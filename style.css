@@ -1,0 +1,426 @@
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+body {
+  margin: 0; }
+
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+
+  display: block; }
+
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block; }
+
+
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+
+progress {
+  vertical-align: baseline; }
+
+
+template,
+[hidden] {
+  display: none; }
+
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+ }
+
+
+a:active,
+a:hover {
+  outline-width: 0; }
+
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+
+
+b,
+strong {
+  font-weight: inherit; }
+
+b,
+strong {
+  font-weight: bolder; }
+
+dfn {
+  font-style: italic; }
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+mark {
+  background-color: #ff0;
+  color: #000; }
+
+small {
+  font-size: 80%; }
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sub {
+  bottom: -0.25em; }
+
+sup {
+  top: -0.5em; }
+
+img {
+  border-style: none; }
+
+svg:not(:root) {
+  overflow: hidden; }
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+  }
+
+figure {
+  margin: 1em 40px; }
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  margin: 0;
+  }
+
+
+optgroup {
+  font-weight: bold; }
+
+button,
+input {
+
+overflow: visible; }
+
+button,
+select {
+
+  text-transform: none; }
+
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0; }
+
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText; }
+
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+  }
+
+textarea {
+  overflow: auto; }
+
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+  }
+
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+
+[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+  }
+
+
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.54; }
+
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+   }
+
+header {
+  position: relative;
+  margin: 0;
+  width: 100%;
+  height: 500px;
+  overflow: hidden; }
+
+video {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  z-index: -1; }
+
+img {
+  height: 75px; }
+
+nav {
+  margin-left: 215px;
+  margin-right: 215px;
+  margin-top: 20px; }
+
+ul {
+  float: right;
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+li {
+  display: inline-block;
+  margin-left: 5px; }
+
+a {
+  text-decoration: none;
+  background-color: white;
+  color: #305291;
+  padding: 10px 20px;
+  display: block; }
+
+a:hover {
+  background-color: #305291;
+  color: white; }
+
+.dropdown {
+  position: relative; }
+
+.dropnav {
+  position: absolute;
+  display: none; }
+
+.dropnav li {
+  width: 150px;
+  margin: 0; }
+
+.dropdown:hover .dropnav {
+  display: block; }
+
+h1 {
+  color: #305291;
+  margin-top: 115px;
+  font-size: 40px; }
+
+h3 {
+  color: white;
+  font-size: 20px; }
+
+h1, h2, h3 {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: sans-serif; }
+
+.ourpledgesection {
+  background-color: #305291;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  color: white; }
+
+.ourpledgeline {
+  margin: 0 215px 0 215px; }
+
+.ourpledgeparagraph {
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+  font-size: 16px;
+  margin: 0 210px 0 210px;
+  line-height: 200%; }
+
+.theissuessection {
+  background-color: #f2f2f2;
+  padding-top: 75px;
+  padding-bottom: 75px; }
+
+.theissues, .theissuesheader, .contactinfo {
+  color: #305291; }
+
+.theissuesline {
+  color: #666666;
+  margin: 0 20%; }
+
+.theissuesparagraph {
+  text-align: center;
+  padding-top: 10px;
+  color: #666666;
+  font-size: 16px;
+  margin: 0 20%;
+  line-height: 200%; }
+
+p {
+  color: #666666;
+  line-height: 200%; }
+
+.page {
+  background-color: #f2f2f2;
+  padding: 0 20%; }
+
+article {
+  display: inline-block;
+  width: 22.6%;
+  background-color: white;
+  margin: 0 auto;
+  margin-right: 2%;
+  height: 300px;
+  text-align: center;
+  vertical-align: top;
+  margin-bottom: 20px; }
+
+.fa {
+  width: 40px;
+  border: 1px solid #305291;
+  font-size: 40px;
+  color: #305291;
+  border-radius: 100%;
+  padding: 10px;
+  margin-top: 20px; }
+
+.fa:hover {
+  background-color: #305291;
+  color: white; }
+
+footer {
+  display: inline-block;
+  background-color: #f2f2f2;
+  width: 100%; }
+
+.contactinfo {
+  display: inline-block;
+  text-align: center;
+  width: 33%; }
+
+@media (max-width: 767px) {
+  nav {
+    margin-left: 5px;
+    margin-right: 5px; }
+
+  video {
+    width: auto; }
+
+  h1, .sitetagline {
+    margin-top: auto;
+    padding: 0 10% 0 10%; }
+
+  h1 {
+    line-height: 1.4; }
+
+  .sitetagline {
+    line-height: 2.0; }
+
+  .ourpledgesection {
+    padding-top: 25px;
+    padding-bottom: 65px; }
+
+  .ourpledgeline {
+    margin: 0 10px 0 10px; }
+
+  .ourpledgeparagraph {
+    padding-top: 10px;
+    margin: 0 5px 0 5px;
+    line-height: 200%; }
+
+  .theissuessection {
+    padding-top: 25px;
+    padding-bottom: 25px; }
+
+  .theissuesline {
+    margin: 0 30px; }
+
+  .theissuesparagraph {
+    padding-top: 10px;
+    margin: 0 20px;
+    line-height: 200%; }
+
+  article {
+    width: 100%;
+    height: 300px;
+    margin: 15px; }
+
+  .page {
+    padding: 0 35px 35px 15px; }
+
+  .issueboxparagraph {
+    padding: 0 4px; }
+
+  .contactinfo {
+    width: 100%; } }
